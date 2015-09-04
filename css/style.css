@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 @font-face {
   font-family: 'Charter';
   src:  url('../fonts/charter.woff') format('woff'),
@@ -56,6 +63,7 @@ h3{
 }
 h4{
 	font-size: 2.5rem;
+	text-shadow: 2px 2px 5px white;
 }
 
 nav {
@@ -65,7 +73,7 @@ nav {
 	bottom: 0;
 	margin: 0;
 	width: 100%;
-	margin-left: 0;
+	
 
 
 }
@@ -111,10 +119,14 @@ section:target{
 
 .aboutimg {
 	width: 20%;	
-	
+	border: 5px solid white;
+	border-radius: 50%;
+	display: block;
+	margin: 2rem auto;
 }
 
 .proj-thumbs {
+	margin-top: 3rem;
 	width: 16rem;
 	
 }
@@ -123,4 +135,53 @@ figure {
 	width: 30%;
 	display: inline-block;
 	background-color: black;
+}
+
+.imgwrap {
+	display: inline-block;
+	width: 32%;
+	margin: 2px;
+
+}
+
+.caption{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.2rem;
+}
+
+footer{
+	font-family: 'Source Code Pro';
+	font-size: 1.4rem;
+	text-align: center;
+	background-color: #798FA6;
+	padding: 8rem;
+	margin-top: 5rem;
+
+}
+
+@media screen and (max-width:1050px ){
+	.imgwrap{
+		display: block;
+		margin: 2rem auto;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+		h1{
+	font-size: 3rem;
+}
+h3{
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+h4{
+	font-size: 1rem;
+	text-shadow: 2px 2px 5px white;
+}
+	.masthead{
+		padding: 7rem;
+	}
+
+
 }
