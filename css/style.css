@@ -22,21 +22,19 @@ body{
 
 .masthead {
 	background-image: url('https://images.unsplash.com/uploads/14132599381062b4d4ede/3b6f33f2?q=80&fm=jpg&s=53083609e35c92b77cb656ad50d0782f');
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 25rem 0 0 0;
+	height: 25rem;
 	position: relative;
+
 
 }
 
 .headers {
 	
-	position: absolute;
-	top: 2rem;
-	float: left;
-	max-width: 100%;
 
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -46,7 +44,7 @@ h1,h3,h4{
 	color: rgb(163,78,2);
 	font-family: 'Charter', serif;
 	text-shadow: 2px 2px 2px #BF6D02;
-	margin: .25rem;
+	
 	
 }
 a{
@@ -59,7 +57,7 @@ h1{
 }
 h3{
 	font-size: 3rem;
-	margin-top: 2rem;
+
 }
 h4{
 	font-size: 2.5rem;
@@ -71,6 +69,7 @@ nav {
 	padding: 8px;
 	position: absolute;
 	bottom: 0;
+	left: 0;
 	margin: 0;
 	width: 100%;
 	
@@ -111,6 +110,7 @@ section:target{
 
 #projects{
 	color: rgb(163,78,2);
+
 }
 
 #contact{
@@ -128,6 +128,7 @@ section:target{
 .proj-thumbs {
 	margin-top: 3rem;
 	width: 16rem;
+
 	
 }
 
@@ -141,6 +142,7 @@ figure {
 	display: inline-block;
 	width: 32%;
 	margin: 2px;
+	vertical-align: top;
 
 }
 
@@ -179,9 +181,6 @@ h4{
 	font-size: 1rem;
 	text-shadow: 2px 2px 5px white;
 }
-	.masthead{
-		padding: 7rem;
-	}
-
+	
 
 }
