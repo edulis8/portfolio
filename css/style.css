@@ -90,6 +90,7 @@ section{
 	max-width: 800px;
 	font-size: 1.6em;
 	display:none;
+	text-align: justify;
 }
 
 section:target{
@@ -97,13 +98,29 @@ section:target{
 }
 
 #about{
-	color:red;
+	color: gray;
 }
 
 #projects{
-	color: blue;
+	color: rgb(163,78,2);
 }
 
 #contact{
 	color:orange;
+}
+
+.aboutimg {
+	width: 20%;	
+	
+}
+
+.proj-thumbs {
+	width: 16rem;
+	
+}
+
+figure {
+	width: 30%;
+	display: inline-block;
+	background-color: black;
 }
