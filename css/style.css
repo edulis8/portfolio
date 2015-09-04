@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Charter';
+  src:  url('../fonts/charter.woff') format('woff'),
+        url('../fonts/charter.ttf') format('truetype');
+}
+
+
+body{
+	margin: 0 auto;
+	font-size:62.5%;
+	text-align: center;
+	background-color: rgba(121,143,166,0.30);
+
+}
+
+.masthead {
+	background-image: url('https://images.unsplash.com/uploads/14132599381062b4d4ede/3b6f33f2?q=80&fm=jpg&s=53083609e35c92b77cb656ad50d0782f');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 25rem 0 0 0;
+	position: relative;
+
+}
+
+.headers {
+	
+	position: absolute;
+	top: 2rem;
+	float: left;
+	max-width: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+h1,h3,h4{
+	color: rgb(163,78,2);
+	font-family: 'Charter', serif;
+	text-shadow: 2px 2px 2px #BF6D02;
+	margin: .25rem;
+	
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 5rem;
+}
+h3{
+	font-size: 3rem;
+	margin-top: 2rem;
+}
+h4{
+	font-size: 2.5rem;
+}
+
+nav {
+	background-color: rgba(121,143,166,0.50);
+	padding: 8px;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	width: 100%;
+	margin-left: 0;
+
+
+}
+
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1rem;
+	display: inline;
+	padding: 1.5rem;
+	color: #fff;
+	text-shadow: 1px 1px 4px black;
+}
+
+section{
+	margin: 2rem auto;
+	font-family: 'Fira Sans', sans-serif;
+	max-width: 800px;
+	font-size: 1.6em;
+	display:none;
+}
+
+section:target{
+	display: block;
+}
+
+#about{
+	color:red;
+}
+
+#projects{
+	color: blue;
+}
+
+#contact{
+	color:orange;
+}
