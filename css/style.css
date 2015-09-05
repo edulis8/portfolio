@@ -33,10 +33,10 @@ body{
 
 .headers {
 	
-
 	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+	overflow: hidden;
+
 
 }
 
@@ -44,6 +44,8 @@ h1,h3,h4{
 	color: rgb(163,78,2);
 	font-family: 'Charter', serif;
 	text-shadow: 2px 2px 2px #BF6D02;
+
+
 	
 	
 }
@@ -57,11 +59,14 @@ h1{
 }
 h3{
 	font-size: 3rem;
+	margin-top: 1rem;
+	margin-bottom: -2rem;
 
 }
 h4{
 	font-size: 2.5rem;
 	text-shadow: 2px 2px 5px white;
+	margin-bottom: -2rem;
 }
 
 nav {
@@ -169,18 +174,28 @@ footer{
 
 }
 
+
 @media screen and (max-width: 600px){
-		h1{
-	font-size: 3rem;
+		
+	h1{
+		font-size: 3.7rem;
+		margin-bottom: 1px;
 }
-h3{
-	font-size: 2rem;
-	margin-top: 2rem;
+	h3{
+		font-size: 2.4rem;
+		margin-bottom: -41px;	
 }
-h4{
-	font-size: 1rem;
-	text-shadow: 2px 2px 5px white;
+	h4{
+		font-size: 2.2rem;
+		margin-bottom: -44px;
 }
+
+	.masthead{
+		height:15rem;
+	}
+
+
 	
 
 }
+*/
